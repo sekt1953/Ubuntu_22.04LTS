@@ -7,9 +7,9 @@ sudo apt update
 sudo apt full-upgrade -y
 ```
 
-## Basic Program:
+## Basic Programs:
 ```
-sudo apt install -y pinta gimp geany git telegram-desktop 
+sudo apt install -y pinta gimp geany git
 ```
 
 ## How to enable/disable Wayland on Ubuntu 22.04 Desktop
@@ -42,6 +42,19 @@ sudo systemctl restart gdm3
 sudo usermod -a -G dialout $USER  
 reboot
 ```
+
+## Git & Github:
+Kilde:
+* [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+  * You can connect to GitHub using the Secure Shell Protocol (SSH), which provides a secure channel over an unsecured network.
+* [Checking for existing SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
+  * Before you generate an SSH key, you can check to see if you have any existing SSH keys.
+* [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+  * After you've checked for existing SSH keys, you can generate a new SSH key to use for authentication, then add it to the ssh-agent.
+* [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+  * To configure your account on GitHub.com to use your new (or existing) SSH key, you'll also need to add the key to your account.
+* [Testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
+  * After you've set up your SSH key and added it to your account on GitHub.com, you can test your connection.
 
 ## Visual Studio Code:
 Kilde: 
