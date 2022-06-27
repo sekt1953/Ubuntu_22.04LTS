@@ -12,7 +12,7 @@ sudo apt full-upgrade -y
 sudo apt install -y pinta gimp geany git telegram-desktop 
 ```
 
-## How to enable/disable wayland on Ubuntu 22.04 Desktop
+## How to enable/disable Wayland on Ubuntu 22.04 Desktop
 Kilde: 
 * [LinuxConfig.org](https://linuxconfig.org/how-to-enable-disable-wayland-on-ubuntu-22-04-desktop)  
 *  [WayLand](https://wayland.freedesktop.org/)  
@@ -76,6 +76,9 @@ sudo apt install -y simplescreenrecorder
 ## Key-mon:
 Kilde: 
 * [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
+* A screencast utility that displays your keyboard and mouse status  
+Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
+
 
 Download file and install it with:
 ```
