@@ -79,6 +79,20 @@ My original goal was to create a program that was just really simple to use, but
 sudo apt install -y simplescreenrecorder 
 ```
 
+## OBS-Studio:
+Kilde:
+* [OBS Studio](https://obsproject.com/download#linux)
+  * Gratis, Open Source-software til videooptagelse og live streaming.  
+* YouTube Videos:
+  * [Optag din Computerskærm med OBS Studio | Gratis](https://www.youtube.com/watch?v=bDcAStFrfCk)  
+  * [Use Obs To Record YouTube Videos](https://www.youtube.com/watch?v=F1cCSLrOjog)
+  * [The BEST Way to Live Stream With A Guest with OBS Studio](https://www.youtube.com/watch?v=iJ1_ZplBFoU)
+  * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
+
+```
+sudo apt install -y obs-studio
+```
+
 ## Key-mon:
 Kilde: 
 * [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
