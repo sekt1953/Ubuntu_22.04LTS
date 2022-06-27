@@ -101,6 +101,8 @@ An AppImage is a downloadable file for Linux that contains an application and ev
 Before you can run an AppImage, you need to make it executable. This is a Linux security feature. There are three main ways to make an AppImage executable:
 ```
 chmod a+x ~/.local/bin/*.AppImage
+
+chmod a+x ~/.local/share/applications/*.desktop
 ```
 ### Where to place my AppImages file:
 * I place my AppImage file in the local folder:
@@ -167,7 +169,7 @@ Type=Application
 Name=audacity-linux-3.1.3-x86_64
 Comment=audacity-linux-3.1.3-x86_64
 Categories=Graphics;Science;Engineering;
-Icon=.png
+Icon=Audacity.png
 Exec=audacity-linux-3.1.3-x86_64.AppImage
 Terminal=false
 Name[da_DK]=audacity-linux-3.1.3-x86_64

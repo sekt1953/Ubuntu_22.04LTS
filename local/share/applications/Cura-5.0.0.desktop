@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Ultimaker-Cura-5.0.0-linux
+Comment=Ultimaker-Cura-5.0.0-linux
+Icon=Cura.png
+Exec=env LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 Ultimaker-Cura-5.0.0-linux.AppImage
+Categories=Categories=Graphics;2DGraphics;3DGraphics;RasterGraphics;GTK;
+Terminal=false
+Name[da_DK]=Ultimaker-Cura-5.0.0-linux
+StartupNotify=true
+GenericName[da_DK]=CAD-progra

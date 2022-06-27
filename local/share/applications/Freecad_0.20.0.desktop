@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=FreeCAD_0.20.0.App
+Comment=FreeCAD_0.20.0
+Categories=Graphics;Science;Engineering;
+Icon=FreeCAD.png
+Exec=FreeCAD-0.20.0-Linux-x86_64.AppImage
+Terminal=false
+Name[da_DK]=FreeCAD_0.20.0
+MimeType=application/x-extension-fcstd;
+StartupNotify=true
+GenericName[da_DK]=CAD-progra
