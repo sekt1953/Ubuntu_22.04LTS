@@ -46,6 +46,7 @@ reboot
 ## Visual Studio Code:
 Kilde: 
 * [Download Visual Studio Code](https://code.visualstudio.com/Download)  
+* Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). Begin your journey with VS Code with these introductory videos.  
 
 Download file an install it with:
 ```
@@ -53,7 +54,9 @@ sudo dpkg -i code_1.68.1-1655263094_amd64.deb
 ```
 
 ## Telegram:
-Kilde: [Linuxhint](https://linuxhint.com/install-telegram-desktop-messenger-linux/)
+Kilde: 
+* [Linuxhint](https://linuxhint.com/install-telegram-desktop-messenger-linux/)
+* Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.  
 ```
 sudo apt install -y telegram-desktop 
 ```
@@ -61,6 +64,7 @@ sudo apt install -y telegram-desktop
 ## Kdenlive:
 Kilde: 
 * [Linux Shout](https://www.how2shout.com/linux/3-ways-to-install-kdenlive-on-ubuntu-22-04-lts-jammy/)
+* Kdenlive is an open source video editor. The project was started around 2003. Kdenlive is built on Qt and the KDE Frameworks libraries. Most of the video processing is done by the MLT Framework, which relies on many other open source projects like FFmpeg, frei0r, movit, ladspa, sox, etc…
 ```
 sudo apt install -y kdenlive
 ```
@@ -69,6 +73,8 @@ sudo apt install -y kdenlive
 Kilde: 
 * [Linux Shout](https://www.how2shout.com/linux/install-simplescreenrecorder-in-ubuntu-20-04-lts-to-record-screen/)
 * [Linuxhint](https://linuxhint.com/install_simple_screen_recorder_ubuntu/)
+* SimpleScreenRecorder is a Linux program that I've created to record programs and games. There were already a few programs that could do this, but I wasn't 100% happy with any of them, so I created my own.  
+My original goal was to create a program that was just really simple to use, but as I was writing it I started adding more and more features, and the result is actually a pretty powerful program. It's 'simple' in the sense that it's easier to use than ffmpeg/avconv or VLC, because it has a straightforward user interface.
 ```
 sudo apt install -y simplescreenrecorder 
 ```
@@ -79,13 +85,19 @@ Kilde:
 * A screencast utility that displays your keyboard and mouse status  
 Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
 
-
 Download file and install it with:
 ```
 sudo dpkg -i keymon_1.20-1_all.deb
 ```
 
 ## AppImage:
+* An AppImage is a downloadable file for Linux that contains an application and everything the application needs to run (e.g., libraries, icons, fonts, translations, etc.) that cannot be reasonably expected to be part of each target system  
+
+Before you can run an AppImage, you need to make it executable. This is a Linux security feature. There are three main ways to make an AppImage executable:
+```
+chmod a+x Some.AppImage
+```
+
 ```
 # opret directory til dine bin filer
 mkdir -p ~/.local/bin
