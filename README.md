@@ -122,7 +122,7 @@ Kilde:
 ```
 PATH="$PATH:$HOME/bin"
 ```
-
+## AppImages Desktop Files:
 ### FreeCad_0.20.0.AppImage:
 
 ~/.local/share/applications/FreeCad_0.20.0.desktop
