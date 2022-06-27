@@ -91,23 +91,85 @@ sudo dpkg -i keymon_1.20-1_all.deb
 ```
 
 ## AppImage:
-* An AppImage is a downloadable file for Linux that contains an application and everything the application needs to run (e.g., libraries, icons, fonts, translations, etc.) that cannot be reasonably expected to be part of each target system  
+Kilde: 
+* [AppImageKit](https://github.com/AppImage/AppImageKit/wiki)
+
+An AppImage is a downloadable file for Linux that contains an application and everything the application needs to run (e.g., libraries, icons, fonts, translations, etc.) that cannot be reasonably expected to be part of each target system  
+
+* [How to run an AppImage](https://discourse.appimage.org/t/how-to-run-an-appimage/80) 
 
 Before you can run an AppImage, you need to make it executable. This is a Linux security feature. There are three main ways to make an AppImage executable:
 ```
-chmod a+x Some.AppImage
+chmod a+x ~/.local/bin/*.AppImage
 ```
+### Where to place my AppImages file:
+* I place my AppImage file in the local folder:
+  * ~/.local/bin
+* I place my AppImage.desktop file in local folder:
+  * ~/.local/share/applications
+* I place my AppImage Icons in the local folder:
+  * ~/.local/share/icons
 
+The bin & icons folder may not exist so I create them
 ```
-# opret directory til dine bin filer
 mkdir -p ~/.local/bin
 mkdir -p ~/.local/share/icons
+```
+### How to set your $PATH 
+Kilde: 
+* Telling your Linux shell where to look for executable files is easy, and something everyone should be able to do.
+```
 PATH="$PATH:$HOME/bin"
 ```
 
-### FreeCad_0.20.0.AppImage
 
-### Ultimaker-Cura-5.0.0-linux.AppImage
+### FreeCad_0.20.0.AppImage:
 
-### audacity-linux-3.1.3-x86_64.AppImage
+~/.local/share/applications/FreeCad_0.20.0.desktop
+```
+[Desktop Entry]
+Type=Application
+Name=FreeCAD_0.20.0.App
+Comment=FreeCAD_0.20.0
+Categories=Graphics;Science;Engineering;
+Icon=FreeCAD.png
+Exec=FreeCAD-0.20.0-Linux-x86_64.AppImage
+Terminal=false
+Name[da_DK]=FreeCAD_0.20.0
+MimeType=application/x-extension-fcstd;
+StartupNotify=true
+GenericName[da_DK]=CAD-program
+```
 
+### Ultimaker-Cura-5.0.0-linux.AppImage:
+
+~/.local/share/applications/Cura-5.0.0.desktop
+```
+[Desktop Entry]
+Type=Application
+Name=Ultimaker-Cura-5.0.0-linux
+Comment=Ultimaker-Cura-5.0.0-linux
+Icon=Cura.png
+Exec=env LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 Ultimaker-Cura-5.0.0-linux.AppImage
+Categories=Categories=Graphics;2DGraphics;3DGraphics;RasterGraphics;GTK;
+Terminal=false
+Name[da_DK]=Ultimaker-Cura-5.0.0-linux
+StartupNotify=true
+GenericName[da_DK]=CAD-program
+```
+
+### audacity-linux-3.1.3-x86_64.AppImage:
+
+~/.local/share/applications/audacity-linux-3.1.3-x86_64.desktop
+```
+[Desktop Entry]
+Type=Application
+Name=audacity-linux-3.1.3-x86_64
+Comment=audacity-linux-3.1.3-x86_64
+Categories=Graphics;Science;Engineering;
+Icon=.png
+Exec=audacity-linux-3.1.3-x86_64.AppImage
+Terminal=false
+Name[da_DK]=audacity-linux-3.1.3-x86_64
+StartupNotify=true
+```
