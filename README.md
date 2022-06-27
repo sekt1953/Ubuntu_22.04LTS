@@ -117,11 +117,11 @@ mkdir -p ~/.local/share/icons
 ```
 ### How to set your $PATH 
 Kilde: 
+* [Opensource.com](https://opensource.com/article/17/6/set-path-linux)
 * Telling your Linux shell where to look for executable files is easy, and something everyone should be able to do.
 ```
 PATH="$PATH:$HOME/bin"
 ```
-
 
 ### FreeCad_0.20.0.AppImage:
 
