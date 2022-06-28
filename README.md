@@ -7,9 +7,9 @@ sudo apt update
 sudo apt full-upgrade -y
 ```
 
-## Basic Programs:
+## Some Basic Programs:
 ```
-sudo apt install -y pinta gimp geany git
+sudo apt install -y pinta gimp geany git vlc fritzing
 ```
 
 ## How to enable/disable Wayland on Ubuntu 22.04 Desktop
@@ -37,7 +37,7 @@ After you have made the desired changes, save this file and exit it. You will ne
 sudo systemctl restart gdm3
 ```
 
-## Access to serial port:
+## Enable Access to serial port:
 ```
 sudo usermod -a -G dialout $USER  
 reboot
