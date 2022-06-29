@@ -154,10 +154,15 @@ chmod a+x ~/.local/bin/*.AppImage
 chmod a+x ~/.local/share/applications/*.desktop
 ```
 
+### Fuse
+sudo apt-add-repository universe
+sudo apt install libfuse2
+ 
+
 ## AppImages Desktop Files:
 ### FreeCad_0.20.0.AppImage:
 
-~/.local/share/applications/FreeCad_0.20.0.desktop
+sudo nano ~/.local/share/applications/FreeCad_0.20.0.desktop
 ```
 [Desktop Entry]
 Type=Application
@@ -172,6 +177,9 @@ MimeType=application/x-extension-fcstd;
 StartupNotify=true
 GenericName[da_DK]=CAD-program
 ```
+To Save : [Ctrl]+o
+To Exit : [Ctrl]+w
+
 
 ### Ultimaker-Cura-5.0.0-linux.AppImage:
 
