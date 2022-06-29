@@ -157,6 +157,12 @@ chmod a+x ~/.local/share/applications/*.desktop
 ### AppImage Fuse:
 Kilde:
 * [ AppImage / AppImageKit /FUSE ](https://github.com/AppImage/AppImageKit/wiki/FUSE)
+* AppImages require FUSE version 2 to run. Filesystem in Userspace (FUSE) is a system that lets non-root users mount filesystems.
+Install FUSE
+
+Many distributions have a working FUSE setup out-of-the-box. However if it is not working for you, you may need to install and configure FUSE manually.
+
+For example, on Ubuntu (>= 22.04):
 
 ```
 sudo apt-add-repository universe
