@@ -167,12 +167,15 @@ For example, on Ubuntu (>= 22.04):
 ```
 sudo apt-add-repository universe
 sudo apt install libfuse2
+reboot
 ```
 
 ## AppImages Desktop Files:
 ### FreeCad_0.20.0.AppImage:
-
+```
 sudo nano ~/.local/share/applications/FreeCad_0.20.0.desktop
+```
+Content of file:
 ```
 [Desktop Entry]
 Type=Application
@@ -192,8 +195,10 @@ To Exit : [Ctrl]+w
 
 
 ### Ultimaker-Cura-5.0.0-linux.AppImage:
-
-~/.local/share/applications/Cura-5.0.0.desktop
+```
+sudo nano ~/.local/share/applications/Cura-5.0.0.desktop
+```
+Content of file:
 ```
 [Desktop Entry]
 Type=Application
@@ -207,10 +212,15 @@ Name[da_DK]=Ultimaker-Cura-5.0.0-linux
 StartupNotify=true
 GenericName[da_DK]=CAD-program
 ```
+To Save : [Ctrl]+o
+To Exit : [Ctrl]+w
+
 
 ### audacity-linux-3.1.3-x86_64.AppImage:
-
-~/.local/share/applications/audacity-linux-3.1.3-x86_64.desktop
+```
+sudo nano ~/.local/share/applications/audacity-linux-3.1.3-x86_64.desktop
+```
+Content of file:
 ```
 [Desktop Entry]
 Type=Application
@@ -223,3 +233,6 @@ Terminal=false
 Name[da_DK]=audacity-linux-3.1.3-x86_64
 StartupNotify=true
 ```
+To Save : [Ctrl]+o
+To Exit : [Ctrl]+w
+
