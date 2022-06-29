@@ -37,7 +37,7 @@ After you have made the desired changes, save this file and exit it. You will ne
 sudo systemctl restart gdm3
 ```
 
-## Enable Access to serial port:
+## Enable Access to serial/usb port:
 ```
 sudo usermod -a -G dialout $USER  
 reboot
@@ -123,14 +123,6 @@ Kilde:
 
 An AppImage is a downloadable file for Linux that contains an application and everything the application needs to run (e.g., libraries, icons, fonts, translations, etc.) that cannot be reasonably expected to be part of each target system  
 
-* [How to run an AppImage](https://discourse.appimage.org/t/how-to-run-an-appimage/80) 
-
-Before you can run an AppImage, you need to make it executable. This is a Linux security feature. There are three main ways to make an AppImage executable:
-```
-chmod a+x ~/.local/bin/*.AppImage
-
-chmod a+x ~/.local/share/applications/*.desktop
-```
 ### Where to place my AppImages file:
 * I place my AppImage file in the local folder:
   * ~/.local/bin
@@ -144,6 +136,7 @@ The bin & icons folder may not exist so I create them
 mkdir -p ~/.local/bin
 mkdir -p ~/.local/share/icons
 ```
+
 ### How to set your $PATH 
 Kilde: 
 * [Opensource.com](https://opensource.com/article/17/6/set-path-linux)
@@ -151,6 +144,16 @@ Kilde:
 ```
 PATH="$PATH:$HOME/bin"
 ```
+
+### [How to run an AppImage](https://discourse.appimage.org/t/how-to-run-an-appimage/80) 
+
+Before you can run an AppImage, you need to make it executable. This is a Linux security feature. There are three main ways to make an AppImage executable:
+```
+chmod a+x ~/.local/bin/*.AppImage
+
+chmod a+x ~/.local/share/applications/*.desktop
+```
+
 ## AppImages Desktop Files:
 ### FreeCad_0.20.0.AppImage:
 
