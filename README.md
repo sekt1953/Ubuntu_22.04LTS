@@ -154,10 +154,14 @@ chmod a+x ~/.local/bin/*.AppImage
 chmod a+x ~/.local/share/applications/*.desktop
 ```
 
-### Fuse
+### AppImage Fuse:
+Kilde:
+* [ AppImage / AppImageKit /FUSE ](https://github.com/AppImage/AppImageKit/wiki/FUSE)
+
+```
 sudo apt-add-repository universe
 sudo apt install libfuse2
- 
+```
 
 ## AppImages Desktop Files:
 ### FreeCad_0.20.0.AppImage:
