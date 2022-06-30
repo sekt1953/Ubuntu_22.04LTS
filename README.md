@@ -71,7 +71,7 @@ Download file an install it with:
 sudo dpkg -i ~/Hentet/code_1.68.1-1655263094_amd64.deb
 ```
 
-## OBS-Studio:
+### OBS-Studio:
 Kilde:
 * [OBS Studio](https://obsproject.com/download#linux)
   * Gratis, Open Source-software til videooptagelse og live streaming.  
@@ -86,7 +86,7 @@ sudo apt install qtwayland5
 sudo apt install -y obs-studio
 ```
 
-## Key-mon:
+### Key-mon:
 Kilde: 
 * [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
 * A screencast utility that displays your keyboard and mouse status  
