@@ -286,29 +286,3 @@ My original goal was to create a program that was just really simple to use, but
 sudo apt install -y simplescreenrecorder 
 ```
 
-## OBS-Studio:
-Kilde:
-* [OBS Studio](https://obsproject.com/download#linux)
-  * Gratis, Open Source-software til videooptagelse og live streaming.  
-* YouTube Videos:
-  * [Optag din Computerskærm med OBS Studio | Gratis](https://www.youtube.com/watch?v=bDcAStFrfCk)  
-  * [Use Obs To Record YouTube Videos](https://www.youtube.com/watch?v=F1cCSLrOjog)
-  * [The BEST Way to Live Stream With A Guest with OBS Studio](https://www.youtube.com/watch?v=iJ1_ZplBFoU)
-  * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
-
-```
-sudo apt install qtwayland5
-sudo apt install -y obs-studio
-```
-
-## Key-mon:
-Kilde: 
-* [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
-* A screencast utility that displays your keyboard and mouse status  
-Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
-
-Download file and install it with:
-```
-sudo apt install python3-xlib
-sudo dpkg -i keymon_1.20-1_all.deb
-```
