@@ -8,19 +8,18 @@ sudo apt full-upgrade -y
 sudo apt autoremove -y
 ```
 
-## Some Basic Programs:
-```
-sudo apt install -y pinta gimp geany git vlc fritzing
-```
-
 ## Enable Access to serial/usb port:
 ```
 sudo usermod -a -G dialout $USER  
 reboot
 ```
 
-## Git & Github:
-Kilde:
+## Some Basic Programs:
+```
+sudo apt install -y git telegram-desktop pinta gimp geany vlc fritzing
+```
+### Git & Github:
+Kilde: [--fast-version-control](https://git-scm.com/)
 * [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
   * You can connect to GitHub using the Secure Shell Protocol (SSH), which provides a secure channel over an unsecured network.
 * [Checking for existing SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
@@ -32,9 +31,36 @@ Kilde:
 * [Testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
   * After you've set up your SSH key and added it to your account on GitHub.com, you can test your connection.
 
+### Telegram:
+Kilde: [Telegram - a new era of messaging](https://telegram.org/)
+* [Linuxhint](https://linuxhint.com/install-telegram-desktop-messenger-linux/)
+* Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.  
+
+### Pinta:
+Kilde: [Painting Made Simple](https://www.pinta-project.com/)  
+* Pinta is a free, open source program for drawing and image editing.  
+* Its goal is to provide users with a simple yet powerful way to draw and manipulate images on Linux, Mac, Windows, and *BSD.
+
+### Gimp:
+Kilde: [The Free & Open Source Image Editor](https://www.gimp.org/)  
+* This is the official website of the GNU Image Manipulation Program (GIMP).  
+* GIMP is a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.  
+* Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.
+
+### Geany:
+Kilde: [The Flyweight IDE](https://www.geany.org/)  
+* Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and macOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.
+### VLC:
+Kilde: [VLC media player](https://www.videolan.org/vlc/index.da.html)
+* VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et framework, der afspiller de fleste multimediefiler, såvel som DVD'er, lyd-CD'er, VCD'er og forskellige streamingsprotokoller.
+
+### Fritzing:
+Kilde: [fritzing](https://fritzing.org/)
+* Fritzing is an open-source hardware initiative that makes electronics accessible as a creative material for anyone. We offer a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional PCBs.
+
 ## Visual Studio Code:
-Kilde: 
-* [Download Visual Studio Code](https://code.visualstudio.com/Download)  
+Kilde: [Code editing. Redefined.](https://code.visualstudio.com/)
+* Get Code from here: [Visual Studio Code Download](https://code.visualstudio.com/Download)  
 * Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). Begin your journey with VS Code with these introductory videos.  
 
 Download file an install it with:
@@ -42,13 +68,6 @@ Download file an install it with:
 sudo dpkg -i code_1.68.1-1655263094_amd64.deb
 ```
 
-## Telegram:
-Kilde: 
-* [Linuxhint](https://linuxhint.com/install-telegram-desktop-messenger-linux/)
-* Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.  
-```
-sudo apt install -y telegram-desktop 
-```
 
 ## AppImage:
 Kilde: 
