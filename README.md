@@ -82,7 +82,7 @@ Kilde:
   * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
 
 ```
-sudo apt install qtwayland5
+sudo apt install -y qtwayland5
 sudo apt install -y obs-studio
 ```
 
@@ -94,7 +94,7 @@ Key-mon is useful for teaching since it shows the current status of your keyboar
 
 Install it with:
 ```
-sudo apt install python3-xlib
+sudo apt install -y python3-xlib
 sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
 ```
 
