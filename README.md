@@ -77,33 +77,6 @@ Kilde:
 ```
 PATH="$PATH:$HOME/bin"
 ```
-
-### Download Appimage Programs:
-
-* Get FreeCad here: [FreeCad](https://www.freecadweb.org/downloads.php)
-* Get Ultimaker Cura here: [Cura](https://ultimaker.com/software/ultimaker-cura)
-* get Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
-
-Move files to ~/.local/bin:
-
-```
-mv ~/Hentet/*.AppImage ~/.local/bin
-```
-
-### Get Icons files from my Github page
-
-[My Icons](https://github.com/sekt1953/Ubuntu_22.04LTS/tree/main/local/share/icons)
-
-
-### [How to run an AppImage](https://discourse.appimage.org/t/how-to-run-an-appimage/80) 
-
-Before you can run an AppImage, you need to make it executable. This is a Linux security feature. There are three main ways to make an AppImage executable:
-
-```
-chmod a+x ~/.local/bin/*.AppImage
-chmod a+x ~/.local/share/applications/*.desktop
-```
-
 ### AppImage Fuse:
 Kilde:
 * [ AppImage / AppImageKit /FUSE ](https://github.com/AppImage/AppImageKit/wiki/FUSE)
@@ -119,6 +92,23 @@ sudo apt-add-repository universe
 sudo apt install libfuse2
 reboot
 ```
+### Download Appimage Programs:
+
+* Get FreeCad here: [FreeCad](https://www.freecadweb.org/downloads.php)
+* Get Ultimaker Cura here: [Cura](https://ultimaker.com/software/ultimaker-cura)
+* get Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
+
+Move files to ~/.local/bin:
+
+```
+mv ~/Hentet/*.AppImage ~/.local/bin
+```
+
+### Get Icons 
+
+Icons for this program you can get from my Github page [My Icons](https://github.com/sekt1953/Ubuntu_22.04LTS/tree/main/local/share/icons)  
+
+Save the png files in the folder ***~/.local/share/icons***
 
 ## AppImages Desktop Files:
 ### FreeCad_0.20.0.AppImage:
@@ -185,6 +175,19 @@ StartupNotify=true
 ```
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
+
+
+### [How to run an AppImage](https://discourse.appimage.org/t/how-to-run-an-appimage/80) 
+
+Before you can run an AppImage, you need to make it executable. This is a Linux security feature. There are three main ways to make an AppImage executable:
+
+```
+chmod a+x ~/.local/bin/*.AppImage
+chmod a+x ~/.local/share/applications/*.desktop
+```
+
+
+
 
 # Video optager:
 ## How to enable/disable Wayland on Ubuntu 22.04 Desktop
