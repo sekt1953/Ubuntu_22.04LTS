@@ -18,6 +18,7 @@ reboot
 ```
 sudo apt install -y git telegram-desktop pinta gimp geany vlc fritzing
 ```
+## Short Program Description
 ### Git & Github:
 Kilde: [--fast-version-control](https://git-scm.com/)
 * [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
