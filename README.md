@@ -65,7 +65,7 @@ Kilde: [Code editing. Redefined.](https://code.visualstudio.com/)
 
 Download file an install it with:
 ```
-sudo dpkg -i code_1.68.1-1655263094_amd64.deb
+sudo dpkg -i ~/Hentet/code_1.68.1-1655263094_amd64.deb
 ```
 
 
