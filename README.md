@@ -95,7 +95,7 @@ Key-mon is useful for teaching since it shows the current status of your keyboar
 Download file and install it with:
 ```
 sudo apt install python3-xlib
-sudo dpkg -i keymon_1.20-1_all.deb
+sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
 ```
 
 
