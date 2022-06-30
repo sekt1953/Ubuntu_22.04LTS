@@ -88,17 +88,15 @@ sudo apt install -y obs-studio
 
 ### Key-mon:
 Kilde: 
-* [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
+* Download from Here: [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
 * A screencast utility that displays your keyboard and mouse status  
 Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
 
-Download file and install it with:
+Install it with:
 ```
 sudo apt install python3-xlib
 sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
 ```
-
-
 
 
 ## AppImage:
@@ -236,11 +234,7 @@ Before you can run an AppImage, you need to make it executable. This is a Linux 
 chmod a+x ~/.local/bin/*.AppImage
 chmod a+x ~/.local/share/applications/*.desktop
 ```
-
-
-
-
-# Video optager:
+# WayLand:
 ## How to enable/disable Wayland on Ubuntu 22.04 Desktop
 Some programs can not run on  Waylan but nead X
 
@@ -268,6 +262,10 @@ After you have made the desired changes, save this file and exit it. You will ne
 sudo systemctl restart gdm3
 ```
 
+
+
+
+# Old Video Recorder that not run Wayland:
 ## Kdenlive:
 Kilde: 
 * [Linux Shout](https://www.how2shout.com/linux/3-ways-to-install-kdenlive-on-ubuntu-22-04-lts-jammy/)
