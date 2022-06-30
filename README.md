@@ -18,6 +18,7 @@ reboot
 ```
 sudo apt install -y git telegram-desktop pinta gimp geany vlc fritzing
 ```
+
 ## Short Program Description
 ### Git & Github:
 Kilde: [--fast-version-control](https://git-scm.com/)
@@ -59,7 +60,8 @@ Kilde: [VLC media player](https://www.videolan.org/vlc/index.da.html)
 Kilde: [fritzing](https://fritzing.org/)
 * Fritzing is an open-source hardware initiative that makes electronics accessible as a creative material for anyone. We offer a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional PCBs.
 
-## Visual Studio Code:
+## 3. Party Programs:
+### Visual Studio Code:
 Kilde: [Code editing. Redefined.](https://code.visualstudio.com/)
 * Get Code from here: [Visual Studio Code Download](https://code.visualstudio.com/Download)  
 * Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). Begin your journey with VS Code with these introductory videos.  
@@ -68,6 +70,35 @@ Download file an install it with:
 ```
 sudo dpkg -i ~/Hentet/code_1.68.1-1655263094_amd64.deb
 ```
+
+## OBS-Studio:
+Kilde:
+* [OBS Studio](https://obsproject.com/download#linux)
+  * Gratis, Open Source-software til videooptagelse og live streaming.  
+* YouTube Videos:
+  * [Optag din Computerskærm med OBS Studio | Gratis](https://www.youtube.com/watch?v=bDcAStFrfCk)  
+  * [Use Obs To Record YouTube Videos](https://www.youtube.com/watch?v=F1cCSLrOjog)
+  * [The BEST Way to Live Stream With A Guest with OBS Studio](https://www.youtube.com/watch?v=iJ1_ZplBFoU)
+  * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
+
+```
+sudo apt install qtwayland5
+sudo apt install -y obs-studio
+```
+
+## Key-mon:
+Kilde: 
+* [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
+* A screencast utility that displays your keyboard and mouse status  
+Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
+
+Download file and install it with:
+```
+sudo apt install python3-xlib
+sudo dpkg -i keymon_1.20-1_all.deb
+```
+
+
 
 
 ## AppImage:
@@ -266,6 +297,7 @@ Kilde:
   * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
 
 ```
+sudo apt install qtwayland5
 sudo apt install -y obs-studio
 ```
 
