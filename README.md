@@ -5,6 +5,7 @@ What to do when after installing Ubuntu 22.04LTS
 ```
 sudo apt update
 sudo apt full-upgrade -y
+sudo apt aoturemove -y
 ```
 
 ## Some Basic Programs:
@@ -114,6 +115,7 @@ Key-mon is useful for teaching since it shows the current status of your keyboar
 
 Download file and install it with:
 ```
+sudo apt install python3-xlib
 sudo dpkg -i keymon_1.20-1_all.deb
 ```
 
