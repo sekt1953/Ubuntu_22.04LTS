@@ -13,31 +13,6 @@ sudo apt autoremove -y
 sudo apt install -y pinta gimp geany git vlc fritzing
 ```
 
-## How to enable/disable Wayland on Ubuntu 22.04 Desktop
-Kilde: 
-* [LinuxConfig.org](https://linuxconfig.org/how-to-enable-disable-wayland-on-ubuntu-22-04-desktop)  
-*  [WayLand](https://wayland.freedesktop.org/)  
-  Wayland is intended as a simpler replacement for X, easier to develop and maintain. GNOME and KDE are expected to be ported to it.
-
-* [GNOME Display Manager (gdm3):](https://askubuntu.com/questions/829108/what-is-gdm3-kdm-lightdm-how-to-install-and-remove-them)  
-gdm3 is the successor of gdm which was the GNOME display manager. The newer gdm3 uses a minimal version of gnome-shell, and provides the same look and feel of as GNOME3 session. Is the Canonical choice since Ubuntu 17.10. You can install it with:
-```
-sudo nano /etc/gdm3/custom.conf
-```
-Within this file, look for the line that says #WaylandEnable=false. You can uncomment this line and either set it to true or false, depending on whether you want Wayland enabled or not.  
-* Enable Wayland:
-```
-WayLandEnable=true
-```
-* Or disable Wayland:
-```
-WayLandEnable=false
-```
-After you have made the desired changes, save this file and exit it. You will need to restart GDM3 or reboot your Ubuntu 22.04 desktop for the changes to take effect.
-```
-sudo systemctl restart gdm3
-```
-
 ## Enable Access to serial/usb port:
 ```
 sudo usermod -a -G dialout $USER  
@@ -73,50 +48,6 @@ Kilde:
 * Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.  
 ```
 sudo apt install -y telegram-desktop 
-```
-
-## Kdenlive:
-Kilde: 
-* [Linux Shout](https://www.how2shout.com/linux/3-ways-to-install-kdenlive-on-ubuntu-22-04-lts-jammy/)
-* Kdenlive is an open source video editor. The project was started around 2003. Kdenlive is built on Qt and the KDE Frameworks libraries. Most of the video processing is done by the MLT Framework, which relies on many other open source projects like FFmpeg, frei0r, movit, ladspa, sox, etc…
-```
-sudo apt install -y kdenlive
-```
-
-## Simple Screen Recorder:
-Kilde: 
-* [Linux Shout](https://www.how2shout.com/linux/install-simplescreenrecorder-in-ubuntu-20-04-lts-to-record-screen/)
-* [Linuxhint](https://linuxhint.com/install_simple_screen_recorder_ubuntu/)
-* SimpleScreenRecorder is a Linux program that I've created to record programs and games. There were already a few programs that could do this, but I wasn't 100% happy with any of them, so I created my own.  
-My original goal was to create a program that was just really simple to use, but as I was writing it I started adding more and more features, and the result is actually a pretty powerful program. It's 'simple' in the sense that it's easier to use than ffmpeg/avconv or VLC, because it has a straightforward user interface.
-```
-sudo apt install -y simplescreenrecorder 
-```
-
-## OBS-Studio:
-Kilde:
-* [OBS Studio](https://obsproject.com/download#linux)
-  * Gratis, Open Source-software til videooptagelse og live streaming.  
-* YouTube Videos:
-  * [Optag din Computerskærm med OBS Studio | Gratis](https://www.youtube.com/watch?v=bDcAStFrfCk)  
-  * [Use Obs To Record YouTube Videos](https://www.youtube.com/watch?v=F1cCSLrOjog)
-  * [The BEST Way to Live Stream With A Guest with OBS Studio](https://www.youtube.com/watch?v=iJ1_ZplBFoU)
-  * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
-
-```
-sudo apt install -y obs-studio
-```
-
-## Key-mon:
-Kilde: 
-* [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
-* A screencast utility that displays your keyboard and mouse status  
-Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
-
-Download file and install it with:
-```
-sudo apt install python3-xlib
-sudo dpkg -i keymon_1.20-1_all.deb
 ```
 
 ## AppImage:
@@ -238,3 +169,74 @@ StartupNotify=true
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
 
+# Video optager:
+## How to enable/disable Wayland on Ubuntu 22.04 Desktop
+Some programs can not run on  Waylan but nead X
+
+Kilde: 
+* [LinuxConfig.org](https://linuxconfig.org/how-to-enable-disable-wayland-on-ubuntu-22-04-desktop)  
+*  [WayLand](https://wayland.freedesktop.org/)  
+  Wayland is intended as a simpler replacement for X, easier to develop and maintain. GNOME and KDE are expected to be ported to it.
+
+* [GNOME Display Manager (gdm3):](https://askubuntu.com/questions/829108/what-is-gdm3-kdm-lightdm-how-to-install-and-remove-them)  
+gdm3 is the successor of gdm which was the GNOME display manager. The newer gdm3 uses a minimal version of gnome-shell, and provides the same look and feel of as GNOME3 session. Is the Canonical choice since Ubuntu 17.10. You can install it with:
+```
+sudo nano /etc/gdm3/custom.conf
+```
+Within this file, look for the line that says #WaylandEnable=false. You can uncomment this line and either set it to true or false, depending on whether you want Wayland enabled or not.  
+* Enable Wayland:
+```
+WayLandEnable=true
+```
+* Or disable Wayland:
+```
+WayLandEnable=false
+```
+After you have made the desired changes, save this file and exit it. You will need to restart GDM3 or reboot your Ubuntu 22.04 desktop for the changes to take effect.
+```
+sudo systemctl restart gdm3
+```
+
+## Kdenlive:
+Kilde: 
+* [Linux Shout](https://www.how2shout.com/linux/3-ways-to-install-kdenlive-on-ubuntu-22-04-lts-jammy/)
+* Kdenlive is an open source video editor. The project was started around 2003. Kdenlive is built on Qt and the KDE Frameworks libraries. Most of the video processing is done by the MLT Framework, which relies on many other open source projects like FFmpeg, frei0r, movit, ladspa, sox, etc…
+```
+sudo apt install -y kdenlive
+```
+
+## Simple Screen Recorder:
+Kilde: 
+* [Linux Shout](https://www.how2shout.com/linux/install-simplescreenrecorder-in-ubuntu-20-04-lts-to-record-screen/)
+* [Linuxhint](https://linuxhint.com/install_simple_screen_recorder_ubuntu/)
+* SimpleScreenRecorder is a Linux program that I've created to record programs and games. There were already a few programs that could do this, but I wasn't 100% happy with any of them, so I created my own.  
+My original goal was to create a program that was just really simple to use, but as I was writing it I started adding more and more features, and the result is actually a pretty powerful program. It's 'simple' in the sense that it's easier to use than ffmpeg/avconv or VLC, because it has a straightforward user interface.
+```
+sudo apt install -y simplescreenrecorder 
+```
+
+## OBS-Studio:
+Kilde:
+* [OBS Studio](https://obsproject.com/download#linux)
+  * Gratis, Open Source-software til videooptagelse og live streaming.  
+* YouTube Videos:
+  * [Optag din Computerskærm med OBS Studio | Gratis](https://www.youtube.com/watch?v=bDcAStFrfCk)  
+  * [Use Obs To Record YouTube Videos](https://www.youtube.com/watch?v=F1cCSLrOjog)
+  * [The BEST Way to Live Stream With A Guest with OBS Studio](https://www.youtube.com/watch?v=iJ1_ZplBFoU)
+  * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
+
+```
+sudo apt install -y obs-studio
+```
+
+## Key-mon:
+Kilde: 
+* [Scott Kirkwood Key-mon releases:](https://github.com/scottkirkwood/key-mon/releases)  
+* A screencast utility that displays your keyboard and mouse status  
+Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
+
+Download file and install it with:
+```
+sudo apt install python3-xlib
+sudo dpkg -i keymon_1.20-1_all.deb
+```
