@@ -5,7 +5,7 @@ What to do when after installing Ubuntu 22.04LTS
 ```
 sudo apt update
 sudo apt full-upgrade -y
-sudo apt aoturemove -y
+sudo apt autoremove -y
 ```
 
 ## Some Basic Programs:
