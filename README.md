@@ -31,10 +31,6 @@ sudo apt install -y rpi-imager gparted putty filezilla kicad dia handbrake brase
 
 This article explain in a nice way how to install from commandline [How to let dpkg Install Dependencies Automatically](https://linuxhint.com/install-dpkg-dependencies-automatically/), read if you ran into problems.
 
-[How to Install Dpkg dependencies automatically
-](https://fedingo.com/how-to-install-dpkg-dependencies-automatically/)
-
-
 ### Visual Studio Code:
 Kilde: [Code editing. Redefined.](https://code.visualstudio.com/)
 * Get Code from here: [Visual Studio Code Download](https://code.visualstudio.com/Download)  
