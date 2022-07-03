@@ -19,61 +19,10 @@ reboot
 sudo apt install -y git telegram-desktop pinta gimp geany vlc fritzing
 ```
 
-## Short Program Description
-### Git & Github:
-Kilde: [--fast-version-control](https://git-scm.com/)
-* [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-  * You can connect to GitHub using the Secure Shell Protocol (SSH), which provides a secure channel over an unsecured network.
-* [Checking for existing SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys)
-  * Before you generate an SSH key, you can check to see if you have any existing SSH keys.
-* [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-  * After you've checked for existing SSH keys, you can generate a new SSH key to use for authentication, then add it to the ssh-agent.
-* [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-  * To configure your account on GitHub.com to use your new (or existing) SSH key, you'll also need to add the key to your account.
-* [Testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
-  * After you've set up your SSH key and added it to your account on GitHub.com, you can test your connection.
-
-### Telegram:
-Kilde: [Telegram - a new era of messaging](https://telegram.org/)
-* [Linuxhint](https://linuxhint.com/install-telegram-desktop-messenger-linux/)
-* Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.  
-
-### Pinta:
-Kilde: [Painting Made Simple](https://www.pinta-project.com/)  
-* Pinta is a free, open source program for drawing and image editing.  
-* Its goal is to provide users with a simple yet powerful way to draw and manipulate images on Linux, Mac, Windows, and *BSD.
-
-### Gimp:
-Kilde: [The Free & Open Source Image Editor](https://www.gimp.org/)  
-* This is the official website of the GNU Image Manipulation Program (GIMP).  
-* GIMP is a cross-platform image editor available for GNU/Linux, macOS, Windows and more operating systems. It is free software, you can change its source code and distribute your changes.  
-* Whether you are a graphic designer, photographer, illustrator, or scientist, GIMP provides you with sophisticated tools to get your job done. You can further enhance your productivity with GIMP thanks to many customization options and 3rd party plugins.
-
-### Geany:
-Kilde: [The Flyweight IDE](https://www.geany.org/)  
-* Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and macOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.
-### VLC:
-Kilde: [VLC media player](https://www.videolan.org/vlc/index.da.html)
-* VLC er en fri og open source multimedieafspiller, der fungerer på flere platforme, samt et framework, der afspiller de fleste multimediefiler, såvel som DVD'er, lyd-CD'er, VCD'er og forskellige streamingsprotokoller.
-
-### Fritzing:
-Kilde: [fritzing](https://fritzing.org/)
-* Fritzing is an open-source hardware initiative that makes electronics accessible as a creative material for anyone. We offer a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional PCBs.
-
-
 ## Some Extra Programs:
 ```
 sudo apt install -y rpi-imager gparted putty filezilla kicad dia handbrake brasero solaar 
 ```
-### rpi-imager 
-### putty
-### gparted
-### filezilla
-### brasero
-### kicad
-### dia 
-### solaar
-### handbrake 
 
 ## 3. Party Programs:
 ### Visual Studio Code:
