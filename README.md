@@ -60,6 +60,21 @@ Kilde: [VLC media player](https://www.videolan.org/vlc/index.da.html)
 Kilde: [fritzing](https://fritzing.org/)
 * Fritzing is an open-source hardware initiative that makes electronics accessible as a creative material for anyone. We offer a software tool, a community website and services in the spirit of Processing and Arduino, fostering a creative ecosystem that allows users to document their prototypes, share them with others, teach electronics in a classroom, and layout and manufacture professional PCBs.
 
+
+## Some Extra Programs:
+```
+sudo apt install -y rpi-imager gparted putty filezilla kicad dia handbrake brasero solaar 
+```
+### rpi-imager 
+### putty
+### gparted
+### filezilla
+### brasero
+### kicad
+### dia 
+### solaar
+### handbrake 
+
 ## 3. Party Programs:
 ### Visual Studio Code:
 Kilde: [Code editing. Redefined.](https://code.visualstudio.com/)
@@ -97,7 +112,6 @@ Install it with:
 sudo apt install -y python3-xlib
 sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
 ```
-
 
 ## AppImage:
 Kilde: 
@@ -182,7 +196,6 @@ GenericName[da_DK]=CAD-program
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
 
-
 ### Ultimaker-Cura-5.0.0-linux.AppImage:
 ```
 nano ~/.local/share/applications/Cura-5.0.0.desktop
@@ -204,7 +217,6 @@ GenericName[da_DK]=CAD-program
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
 
-
 ### audacity-linux-3.1.3-x86_64.AppImage:
 ```
 nano ~/.local/share/applications/audacity-linux-3.1.3-x86_64.desktop
@@ -220,6 +232,26 @@ Icon=Audacity.png
 Exec=audacity-linux-3.1.3-x86_64.AppImage
 Terminal=false
 Name[da_DK]=audacity-linux-3.1.3-x86_64
+StartupNotify=true
+```
+To Save : [Ctrl]+o  
+To Exit : [Ctrl]+w
+
+### BalenaEtcher-1.7.9-x64.AppImage:
+```
+nano ~/.local/share/applications/balenaEtcher-1.7.9-x64.desktop
+```
+Content of file:
+```
+[Desktop Entry]
+Type=Application
+Name=balenaEtcher-1.7.9-x64.App
+Comment=balenaEtcher-1.7.9-x64
+Categories=Graphics;Science;Engineering;
+Icon=Etcher-icon.png
+Exec=balenaEtcher-1.7.9-x64.AppImage
+Terminal=false
+Name[da_DK]=balenaEtcher-1.7.9-x64
 StartupNotify=true
 ```
 To Save : [Ctrl]+o  
