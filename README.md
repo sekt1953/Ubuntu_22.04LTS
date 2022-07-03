@@ -25,6 +25,13 @@ sudo apt install -y rpi-imager gparted putty filezilla kicad dia handbrake brase
 ```
 
 ## 3. Party Programs:
+
+### dpkg:
+* The Debian Package (dpkg) is a Linux management low-level tool as compared to APT. It is used to perform different operations such as installing, updating or removing the .deb packages. The .deb is an extension for the Linux Debian software packages and their derivatives.
+
+This article explain in a nice way how to install from commandline [How to let dpkg Install Dependencies Automatically](https://linuxhint.com/install-dpkg-dependencies-automatically/), read if you ran into problems.
+
+
 ### Visual Studio Code:
 Kilde: [Code editing. Redefined.](https://code.visualstudio.com/)
 * Get Code from here: [Visual Studio Code Download](https://code.visualstudio.com/Download)  
@@ -126,9 +133,11 @@ reboot
 ```
 ### Download Appimage Programs:
 
-* Get FreeCad here: [FreeCad](https://www.freecadweb.org/downloads.php)
-* Get Ultimaker Cura here: [Cura](https://ultimaker.com/software/ultimaker-cura)
-* get Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
+* Download FreeCad here: [FreeCad](https://www.freecadweb.org/downloads.php)
+* Download Ultimaker Cura here: [Cura](https://ultimaker.com/software/ultimaker-cura)
+* Download Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
+* Download and unzip balenaEtcher: [balenaEtcher](https://www.balena.io/etcher/)
+
 
 Move files to ~/.local/bin:
 
