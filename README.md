@@ -253,6 +253,7 @@ Exec=balenaEtcher-1.7.9-x64.AppImage
 Terminal=false
 Name[da_DK]=balenaEtcher-1.7.9-x64
 StartupNotify=true
+GenericName[da_DK]=balenaEtcher
 ```
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
