@@ -113,6 +113,26 @@ sudo apt install -y python3-xlib
 sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
 ```
 
+### Oracle VM VirtualBox:
+Kilde: 
+* VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.
+
+[Download VirtualBox for Linux Hosts here:](https://www.virtualbox.org/wiki/Linux_Downloads) - **Select Ubuntu 22.04**
+
+```
+sudo apt install -y libqt5opengl5
+sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1_Ubuntu_jammy_amd64.deb
+```
+
+#### VirtualBox Extension Pack:
+* VirtualBox 6.1.34 Oracle VM VirtualBox Extension Pack
+* Support for USB 2.0 and USB 3.0 devices, VirtualBox RDP, disk encryption, NVMe and PXE boot for Intel cards. See this chapter from the User Manual for an introduction to this Extension Pack. The Extension Pack binaries are released under the VirtualBox Personal Use and Evaluation License (PUEL). Please install the same version extension pack as your installed version of VirtualBox.
+
+[Download VirtualBox 6.1.34 Oracle VM VirtualBox Extension Pack](https://download.virtualbox.org/virtualbox/6.1.34/Oracle_VM_VirtualBox_Extension_Pack-6.1.34.vbox-extpack)
+
+Start virtualBox and the start VirtualBox Extension Pack it will then start installation in VirtualBox.
+
+
 ## AppImage:
 Kilde: 
 * [AppImageKit](https://github.com/AppImage/AppImageKit/wiki)
