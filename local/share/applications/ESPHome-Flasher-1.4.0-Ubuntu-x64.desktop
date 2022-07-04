@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ESPHome-Flasher-1.4.0-Ubuntu-x64.exec
+Comment=ESPHome-Flasher-1.4.0-Ubuntu-x64
+Categories=Graphics;Science;Engineering;
+Icon=EspHomeFlasher.png
+Exec=ESPHome-Flasher-1.4.0-Ubuntu-x64.exec
+Terminal=false
+Name[da_DK]=ESPHome-Flasher-1.4.0-Ubuntu-x64
+StartupNotify=true

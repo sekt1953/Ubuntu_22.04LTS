@@ -87,7 +87,6 @@ sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1_Ubuntu_jammy_amd64.deb
 
 Start virtualBox and the start VirtualBox Extension Pack it will then start installation in VirtualBox.
 
-
 ## AppImage:
 Kilde: 
 * [AppImageKit](https://github.com/AppImage/AppImageKit/wiki)
@@ -234,6 +233,29 @@ GenericName[da_DK]=balenaEtcher
 ```
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
+
+### ESPHome-Flasher-1.4.0-Ubuntu-x64.exec:
+```
+nano ~/.local/share/applications/ESPHome-Flasher-1.4.0-Ubuntu-x64.exec
+```
+Content of file:
+```
+[Desktop Entry]
+Type=Application
+Name=ESPHome-Flasher-1.4.0-Ubuntu-x64.exec
+Comment=ESPHome-Flasher-1.4.0-Ubuntu-x64
+Categories=Graphics;Science;Engineering;
+Icon=EspHomeFlasher.png
+Exec=ESPHome-Flasher-1.4.0-Ubuntu-x64.exec
+Terminal=false
+Name[da_DK]=ESPHome-Flasher-1.4.0-Ubuntu-x64
+StartupNotify=true
+```
+To Save : [Ctrl]+o  
+To Exit : [Ctrl]+w
+
+
+
 
 
 ### [How to run an AppImage](https://discourse.appimage.org/t/how-to-run-an-appimage/80) 
