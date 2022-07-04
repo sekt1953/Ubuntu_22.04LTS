@@ -236,7 +236,7 @@ To Exit : [Ctrl]+w
 
 ### ESPHome-Flasher-1.4.0-Ubuntu-x64.exec:
 ```
-nano ~/.local/share/applications/ESPHome-Flasher-1.4.0-Ubuntu-x64.exec
+nano ~/.local/share/applications/ESPHome-Flasher-1.4.0-Ubuntu-x64.desktop
 ```
 Content of file:
 ```
