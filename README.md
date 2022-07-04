@@ -235,6 +235,9 @@ To Save : [Ctrl]+o
 To Exit : [Ctrl]+w
 
 ### ESPHome-Flasher-1.4.0-Ubuntu-x64.exec:
+### NB!!! This program do not run under WayLand it have to run under X11, see more in Wayland chapter:
+Kilde: [releases section](https://github.com/esphome/esphome-flasher/releases)
+
 ```
 nano ~/.local/share/applications/ESPHome-Flasher-1.4.0-Ubuntu-x64.desktop
 ```
@@ -253,10 +256,6 @@ StartupNotify=true
 ```
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
-
-
-
-
 
 ### [How to run an AppImage](https://discourse.appimage.org/t/how-to-run-an-appimage/80) 
 
