@@ -76,7 +76,7 @@ Kilde:
 
 ```
 sudo apt install -y libqt5opengl5
-sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1_Ubuntu_jammy_amd64.deb
+sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1~Ubuntu~jammy_amd64.deb
 ```
 
 #### VirtualBox Extension Pack:
