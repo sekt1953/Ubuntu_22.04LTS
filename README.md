@@ -66,6 +66,7 @@ Install it with:
 ```
 sudo apt install -y python3-xlib
 sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
+
 ```
 
 ### Oracle VM VirtualBox:
