@@ -50,6 +50,7 @@ Kilde:
   * [Use Obs To Record YouTube Videos](https://www.youtube.com/watch?v=F1cCSLrOjog)
   * [The BEST Way to Live Stream With A Guest with OBS Studio](https://www.youtube.com/watch?v=iJ1_ZplBFoU)
   * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
+  * [OBS University...Sort Of](https://www.youtube.com/playlist?list=PLT3XqaN4XtC0JbI5ZQwyJqkktrd-ChDE8)
 
 ```
 sudo apt install -y qtwayland5
