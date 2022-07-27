@@ -45,9 +45,10 @@ Kilde: [Code editing. Redefined.](https://code.visualstudio.com/)
 * Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages and runtimes (such as C++, C#, Java, Python, PHP, Go, .NET). Begin your journey with VS Code with these introductory videos.  
 
 Download file an install it with:
+NB!!! Check you download version number and replace x.y-z in the command.
 
 ```code
-sudo dpkg -i ~/Hentet/code_1.68.1-1655263094_amd64.deb
+sudo dpkg -i ~/Hentet/code_1.xx.y-zzzzzzzzzz_amd64.deb
 ```
 
 ### OBS-Studio
@@ -380,3 +381,15 @@ My original goal was to create a program that was just really simple to use, but
 ```code
 sudo apt install -y simplescreenrecorder 
 ```
+
+# Other tools:
+
+## Octoprint for linux:
+I follow paukstelis guide see link below
+
+* Youtube:
+  * [Multiple OctoPrint instances FAST with Ubuntu/Linux](https://www.youtube.com/watch?v=1YINWQ5fNn0)  
+  * [FAST multiple octoprint instances for OctoPi and Ubuntu](https://www.youtube.com/watch?v=J5VzI4AFav4&t=3s)
+
+* GitHub:  
+  * [paukstelis/octoprint_deploy](https://github.com/paukstelis/octoprint_deploy)
