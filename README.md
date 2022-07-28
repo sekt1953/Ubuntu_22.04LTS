@@ -382,7 +382,7 @@ My original goal was to create a program that was just really simple to use, but
 sudo apt install -y simplescreenrecorder 
 ```
 
-# Other tools:
+# Other nice tools to have:
 
 ## Octoprint for linux:
 I follow paukstelis guide see link below
@@ -393,3 +393,39 @@ I follow paukstelis guide see link below
 
 * GitHub:  
   * [paukstelis/octoprint_deploy](https://github.com/paukstelis/octoprint_deploy)
+
+# Snap Problems:
+
+Kilde: [Ask Ubuntu](https://askubuntu.com/questions/1411623/cant-update-firefox-snap-on-22-04)
+
+```text
+ tried to update Firefox Snap (from 100 to 101):
+
+sudo snap refresh firefox
+
+but I got a message that an update was pending, but it could not update because Firefox was running an app, although I did close all Firefox windows and I couldn't find anything with pgrep firefox
+
+After a reboot, the update command was working.
+
+So, how do you update Firefox on Ubuntu 22.04 without restarting the system?
+I received repeated messages that an update to Firefox was pending, but I ignored them because I didn't want to reboot yet. Closing Firefox didn't stop these messages from repeating, and neither did running sudo apt update & sudo apt upgrade. In my case only restarting Ubuntu worked. After rebooting Ubuntu the Firefox snap package was updated from 100 to 101 right away. – 
+karel
+ Jun 2 at 5:54
+Even after rebooting, the update is not installed in my case. – 
+MPi
+ Jun 2 at 7:16
+ ```
+
+```text
+ Answer
+
+I had a similar issue, but I was simply being neglectful about closing Firefox.
+
+However, I recommend using something like 
+
+pkill firefox 
+or 
+killall firefox 
+
+in the future to see if that'll close all instances of Firefox to stop it from complaining.
+```
