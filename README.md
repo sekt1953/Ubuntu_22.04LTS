@@ -19,14 +19,14 @@ reboot
 
 ## Some Basic Programs
 
-```
-sudo apt install -y git telegram-desktop pinta gimp geany vlc fritzing
+```code
+sudo apt install -y git geany pinta gimp vlc  
 ```
 
 ## Some Extra Programs
 
-```
-sudo apt install -y rpi-imager gparted putty filezilla kicad dia handbrake brasero solaar 
+```code
+sudo apt install -y  telegram-desktop rpi-imager gparted putty filezilla fritzing kicad dia handbrake brasero solaar
 ```
 
 ## 3. Party Programs
@@ -382,9 +382,10 @@ My original goal was to create a program that was just really simple to use, but
 sudo apt install -y simplescreenrecorder 
 ```
 
-# Other nice tools to have:
+# Other nice tools to have
 
-## Octoprint for linux:
+## Octoprint for linux
+
 I follow paukstelis guide see link below
 
 * Youtube:
@@ -394,7 +395,7 @@ I follow paukstelis guide see link below
 * GitHub:  
   * [paukstelis/octoprint_deploy](https://github.com/paukstelis/octoprint_deploy)
 
-# Snap Problems:
+# Snap Problems
 
 Kilde: [Ask Ubuntu](https://askubuntu.com/questions/1411623/cant-update-firefox-snap-on-22-04)
 
