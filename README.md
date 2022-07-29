@@ -29,15 +29,15 @@ sudo apt install -y git geany pinta gimp vlc
 sudo apt install -y telegram-desktop rpi-imager gparted putty filezilla fritzing kicad dia handbrake brasero solaar
 ```
 
-## 3. Party Programs
+# 3. Party Programs  
 
-### dpkg
+## dpkg
 
 * The Debian Package (dpkg) is a Linux management low-level tool as compared to APT. It is used to perform different operations such as installing, updating or removing the .deb packages. The .deb is an extension for the Linux Debian software packages and their derivatives.
 
 This article explain in a nice way how to install from commandline [How to let dpkg Install Dependencies Automatically](https://linuxhint.com/install-dpkg-dependencies-automatically/), read if you ran into problems.
 
-### Visual Studio Code
+## Visual Studio Code
 
 Kilde: [Code editing. Redefined.](https://code.visualstudio.com/)
 
@@ -51,7 +51,7 @@ NB!!! Check you download version number and replace x.y-z in the command.
 sudo dpkg -i ~/Hentet/code_1.xx.y-zzzzzzzzzz_amd64.deb
 ```
 
-### OBS-Studio
+## OBS-Studio
 
 Kilde:
 
@@ -69,7 +69,7 @@ sudo apt install -y qtwayland5
 sudo apt install -y obs-studio
 ```
 
-### Key-mon
+## Key-mon
 
 Kilde:
 
@@ -84,7 +84,7 @@ sudo apt install -y python3-xlib
 sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
 ```
 
-### Oracle VM VirtualBox
+## Oracle VM VirtualBox
 
 Kilde:
 
@@ -97,7 +97,7 @@ sudo apt install -y libqt5opengl5
 sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1~Ubuntu~jammy_amd64.deb
 ```
 
-#### VirtualBox Extension Pack
+### VirtualBox Extension Pack  
 
 * VirtualBox 6.1.34 Oracle VM VirtualBox Extension Pack
 * Support for USB 2.0 and USB 3.0 devices, VirtualBox RDP, disk encryption, NVMe and PXE boot for Intel cards. See this chapter from the User Manual for an introduction to this Extension Pack. The Extension Pack binaries are released under the VirtualBox Personal Use and Evaluation License (PUEL). Please install the same version extension pack as your installed version of VirtualBox.
@@ -106,7 +106,7 @@ sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1~Ubuntu~jammy_amd64.deb
 
 Start virtualBox and the start VirtualBox Extension Pack it will then start installation in VirtualBox.
 
-## AppImage
+# AppImage  
 
 Kilde:
 
@@ -114,7 +114,7 @@ Kilde:
 
 An AppImage is a downloadable file for Linux that contains an application and everything the application needs to run (e.g., libraries, icons, fonts, translations, etc.) that cannot be reasonably expected to be part of each target system  
 
-### Where to place my AppImages file
+## Where to place my AppImages file  
 
 * I place my AppImage file in the local folder:
   * ~/.local/bin
@@ -130,7 +130,7 @@ mkdir -p ~/.local/bin
 mkdir -p ~/.local/share/icons
 ```
 
-### How to set your $PATH
+## How to set your $PATH
 
 Kilde:
 
@@ -141,7 +141,7 @@ Kilde:
 PATH="$PATH:$HOME/bin"
 ```
 
-### AppImage Fuse
+## AppImage Fuse
 
 Kilde:
 
@@ -159,7 +159,7 @@ sudo apt install libfuse2
 reboot
 ```
 
-### Download Appimage Programs
+## Download Appimage Programs
 
 * Download FreeCad here: [FreeCad](https://www.freecadweb.org/downloads.php)
 * Download Ultimaker Cura here: [Cura](https://ultimaker.com/software/ultimaker-cura)
@@ -172,7 +172,7 @@ Move files to ~/.local/bin:
 mv ~/Hentet/*.AppImage ~/.local/bin
 ```
 
-### Get Icons
+## Get Icons
 
 Icons for this program you can get from my Github page [My Icons](https://github.com/sekt1953/Ubuntu_22.04LTS/tree/main/local/share/icons)  
 
