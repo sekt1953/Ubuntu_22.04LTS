@@ -26,7 +26,7 @@ sudo apt install -y git geany pinta gimp vlc
 ## Some Extra Programs
 
 ```code
-sudo apt install -y  telegram-desktop rpi-imager gparted putty filezilla fritzing kicad dia handbrake brasero solaar
+sudo apt install -y telegram-desktop rpi-imager gparted putty filezilla fritzing kicad dia handbrake brasero solaar
 ```
 
 ## 3. Party Programs
