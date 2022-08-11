@@ -77,6 +77,8 @@ Kilde:
 * A screencast utility that displays your keyboard and mouse status  
 Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
 
+NB! I can only get et to work with X11 not wtth WayLand, [see here](#wayland) how to change from WayLand to X11 
+
 Install it with:
 
 ```code
@@ -317,7 +319,7 @@ chmod a+x ~/.local/bin/*.AppImage
 chmod a+x ~/.local/share/applications/*.desktop
 ```
 
-# WayLand
+# WayLand  
 
 ## How to enable/disable Wayland on Ubuntu 22.04 Desktop
 
