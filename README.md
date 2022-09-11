@@ -32,7 +32,7 @@ sudo apt install -y telegram-desktop rpi-imager gparted putty filezilla fritzing
 ## LibreOffice-Base
 
 Ubuntu 22,04 kommer ikke med libreoffice-base preinstaleret, jeg forstår ikke denne beslutning, Men her er hvordan den skal instaleres.
-Her er en link til en ældre samling af [YouTube Videoer om brugen af LibreOffice-Base](https://www.youtube.com/playlist?list=PLy7Kah3WzqrEerJ0VPNWVaR4CYHMr4wmV)
+Her er en link til en ældre men god samling af [YouTube Videoer om brugen af LibreOffice-Base](https://www.youtube.com/playlist?list=PLy7Kah3WzqrEerJ0VPNWVaR4CYHMr4wmV)
 
  ```code
  sudo apt install libreoffice-base
