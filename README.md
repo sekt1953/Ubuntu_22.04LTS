@@ -1,6 +1,8 @@
 # Ubuntu_22.04LTS
 
-What to do when after installing Ubuntu 22.04LTS
+## Se denne Video: [Windows 11 Must Be Stopped - A Veteran PC Repair Shop Owner's Dire Warning - Jody Bruchon](https://www.youtube.com/watch?v=LcafzHL8iBQ)
+
+# What to do when after installing Ubuntu 22.04LTS
 
 ## Update to latest version
 
@@ -86,7 +88,7 @@ Kilde:
 * A screencast utility that displays your keyboard and mouse status  
 Key-mon is useful for teaching since it shows the current status of your keyboard and mouse and you use them in another application. No longer do you need to say 'Now I'm pressing the Ctrl-D key', your students can just see the keystroke for themselves.  
 
-NB! I can only get et to work with X11 not wtth WayLand, [see here](#wayland) how to change from WayLand to X11 
+NB! I can only get et to work with X11 not wtth WayLand, [see here](#wayland) how to change from WayLand to X11
 
 Install it with:
 
