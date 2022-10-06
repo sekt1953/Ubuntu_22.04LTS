@@ -6,16 +6,35 @@
 
 ## Update to latest version
 
-```
+```code
 sudo apt update
+```
+
+```code
 sudo apt full-upgrade -y
+```
+
+```code
 sudo apt autoremove -y
+```
+
+### some snap firefox problem
+
+```code
+killall firefox 
+```
+
+```code
+sudo snap refresh firefox
 ```
 
 ## Enable Access to serial/usb port
 
-```
+```code
 sudo usermod -a -G dialout $USER  
+```
+
+```code
 reboot
 ```
 
@@ -94,6 +113,9 @@ Install it with:
 
 ```code
 sudo apt install -y python3-xlib
+```
+
+```code
 sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
 ```
 
@@ -107,6 +129,9 @@ Kilde:
 
 ```code
 sudo apt install -y libqt5opengl5
+```
+
+```code
 sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1~Ubuntu~jammy_amd64.deb
 ```
 
@@ -140,6 +165,9 @@ The bin & icons folder may not exist so I create them
 
 ```code
 mkdir -p ~/.local/bin
+```code
+
+```
 mkdir -p ~/.local/share/icons
 ```
 
@@ -168,7 +196,13 @@ For example, on Ubuntu (>= 22.04):
 
 ```code
 sudo apt-add-repository universe
+```
+
+```code
 sudo apt install libfuse2
+```
+
+```code
 reboot
 ```
 
@@ -327,6 +361,9 @@ Before you can run an AppImage, you need to make it executable. This is a Linux 
 
 ```code
 chmod a+x ~/.local/bin/*.AppImage
+```
+
+```code
 chmod a+x ~/.local/share/applications/*.desktop
 ```
 
