@@ -231,7 +231,7 @@ reboot
 ## Download Appimage Programs
 
 * Download FreeCad here: [FreeCad](https://www.freecadweb.org/downloads.php)
-* Download Ultimaker Cura here: [Cura](https://ultimaker.com/software/ultimaker-cura)
+* Download Ultimaker-Cura-5.1.1-linux-modern here: [Cura](https://ultimaker.com/software/ultimaker-cura)
 * Download Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
 * Download and unzip balenaEtcher: [balenaEtcher](https://www.balena.io/etcher/)
 
