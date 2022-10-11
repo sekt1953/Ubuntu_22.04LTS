@@ -187,9 +187,9 @@ The bin & icons folder may not exist so I create them
 
 ```code
 mkdir -p ~/.local/bin
-```code
-
 ```
+
+```code
 mkdir -p ~/.local/share/icons
 ```
 
