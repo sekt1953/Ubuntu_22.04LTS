@@ -7,15 +7,7 @@
 ## Update to latest version
 
 ```code
-sudo apt update
-```
-
-```code
-sudo apt full-upgrade -y
-```
-
-```code
-sudo apt autoremove -y
+sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ```
 
 ### some snap firefox problem
@@ -114,11 +106,7 @@ Kilde:
   * [OBS University...Sort Of](https://www.youtube.com/playlist?list=PLT3XqaN4XtC0JbI5ZQwyJqkktrd-ChDE8)
 
 ```code
-sudo apt install -y qtwayland5 
-```
-
-```code
-sudo apt install -y obs-studio
+sudo apt install -y qtwayland5 && sudo apt install -y obs-studio
 ```
 
 ## Key-mon
@@ -134,11 +122,7 @@ NB! I can only get et to work with X11 not wtth WayLand, [see here](#wayland) ho
 Install it with:
 
 ```code
-sudo apt install -y python3-xlib
-```
-
-```code
-sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
+sudo apt install -y python3-xlib && sudo dpkg -i ~/Hentet/keymon_1.20-1_all.deb
 ```
 
 ## Oracle VM VirtualBox
@@ -186,11 +170,7 @@ An AppImage is a downloadable file for Linux that contains an application and ev
 The bin & icons folder may not exist so I create them
 
 ```code
-mkdir -p ~/.local/bin
-```
-
-```code
-mkdir -p ~/.local/share/icons
+mkdir -p ~/.local/bin && mkdir -p ~/.local/share/icons
 ```
 
 ## How to set your $PATH
@@ -217,11 +197,7 @@ Many distributions have a working FUSE setup out-of-the-box. However if it is no
 For example, on Ubuntu (>= 22.04):
 
 ```code
-sudo apt-add-repository universe
-```
-
-```code
-sudo apt install libfuse2
+sudo apt-add-repository universe && sudo apt install libfuse2
 ```
 
 ```code
@@ -238,7 +214,7 @@ reboot
 Move files to ~/.local/bin:
 
 ```code
-mv ~/Hentet/*.AppImage ~/.local/bin
+mv ~/Hentet/*.AppImage ~/.local/bin  
 ```
 
 ## Get Icons
