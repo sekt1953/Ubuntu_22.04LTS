@@ -52,10 +52,10 @@ Ubuntu 22,04 kommer ikke med libreoffice-base preinstaleret, jeg forstår ikke d
 Her er en link til en ældre men god samling af [YouTube Videoer om brugen af LibreOffice-Base](https://www.youtube.com/playlist?list=PLy7Kah3WzqrEerJ0VPNWVaR4CYHMr4wmV)
 
  ```code
- sudo apt install libreoffice-base
+ sudo apt install -y libreoffice-base
  ```
 
-## Ghange to X11 from Wayland 
+## Change to X11 from Wayland
 
 ```code
 sudo nano /etc/gdm3/custom.conf
