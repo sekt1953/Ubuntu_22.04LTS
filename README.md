@@ -230,7 +230,7 @@ reboot
 
 ## Download Appimage Programs
 
-* Download FreeCad here: [FreeCad](https://www.freecadweb.org/downloads.php)
+* Download FreeCad 0.20.1 here: [FreeCad](https://www.freecadweb.org/downloads.php)
 * Download Ultimaker-Cura-5.1.1-linux-modern here: [Cura](https://ultimaker.com/software/ultimaker-cura)
 * Download Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
 * Download and unzip balenaEtcher: [balenaEtcher](https://www.balena.io/etcher/)
@@ -249,10 +249,10 @@ Save the png files in the folder ***~/.local/share/icons***
 
 ## AppImages Desktop Files
 
-### FreeCad_0.20.0.AppImage
+### FreeCad_0.20.1.AppImage
 
 ```code
-nano ~/.local/share/applications/FreeCad_0.20.0.desktop
+nano ~/.local/share/applications/FreeCad_0.20.1.desktop
 ```
 
 Content of file:
@@ -260,13 +260,13 @@ Content of file:
 ```text
 [Desktop Entry]
 Type=Application
-Name=FreeCAD_0.20.0.App
-Comment=FreeCAD_0.20.0
+Name=FreeCAD_0.20.1.App
+Comment=FreeCAD_0.20.1
 Categories=Graphics;Science;Engineering;
 Icon=FreeCAD.png
-Exec=FreeCAD-0.20.0-Linux-x86_64.AppImage
+Exec=FreeCAD_0.20-1-2022-08-20-conda-Linux-x86_64-py310.AppImage
 Terminal=false
-Name[da_DK]=FreeCAD_0.20.0
+Name[da_DK]=FreeCAD_0.20.1
 MimeType=application/x-extension-fcstd;
 StartupNotify=true
 GenericName[da_DK]=CAD-program
