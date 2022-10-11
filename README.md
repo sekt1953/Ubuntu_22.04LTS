@@ -275,7 +275,7 @@ GenericName[da_DK]=CAD-program
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
 
-### Ultimaker-Cura-5.1.1-linux.AppImage
+### Ultimaker-Cura-5.1.1-linux-modern.AppImage
 
 ```code
 nano ~/.local/share/applications/Cura-5.1.1.desktop
@@ -289,7 +289,7 @@ Type=Application
 Name=Ultimaker-Cura-5.1.1-linux
 Comment=Ultimaker-Cura-5.1.1-linux
 Icon=Cura.png
-Exec=env Ultimaker-Cura-5.1.1-linux-modern.AppImage
+Exec=Ultimaker-Cura-5.1.1-linux-modern.AppImage
 Categories=Categories=Graphics;2DGraphics;3DGraphics;RasterGraphics;GTK;
 Terminal=false
 Name[da_DK]=Ultimaker-Cura-5.1.1-linux
