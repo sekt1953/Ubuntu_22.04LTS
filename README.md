@@ -21,11 +21,7 @@ sudo apt autoremove -y
 ### some snap firefox problem
 
 ```code
-killall firefox 
-```
-
-```code
-sudo snap refresh firefox
+sudo killall firefox && sudo snap refresh firefox
 ```
 
 ## Enable Access to serial/usb port
@@ -58,6 +54,29 @@ Her er en link til en ældre men god samling af [YouTube Videoer om brugen af Li
  ```code
  sudo apt install libreoffice-base
  ```
+
+## Ghange to X11 from Wayland 
+
+```code
+sudo nano /etc/gdm3/custom.conf
+```
+
+Within this file, look for the line that says #WaylandEnable=false. You can uncomment this line and either set it to true or false, depending on whether you want Wayland enabled or not.  
+
+* Disable Wayland:
+
+```text
+WayLandEnable=false
+```
+
+[CTRL]+[O] to save
+[CTRL]+[X] to exit
+
+After you have made the desired changes, save this file and exit it. You will need to restart GDM3 or reboot your Ubuntu 22.04 desktop for the changes to take effect.
+
+```code
+sudo systemctl restart gdm3
+```
 
 # 3. Party Programs  
 
@@ -94,8 +113,11 @@ Kilde:
   * [Obs Live Stream Tutorial - Add a guest to your Live Stream!](https://www.youtube.com/watch?v=g_TLoeNgZxs)  
   * [OBS University...Sort Of](https://www.youtube.com/playlist?list=PLT3XqaN4XtC0JbI5ZQwyJqkktrd-ChDE8)
 
-```text
-sudo apt install -y qtwayland5
+```code
+sudo apt install -y qtwayland5 
+```
+
+```code
 sudo apt install -y obs-studio
 ```
 
