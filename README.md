@@ -69,8 +69,8 @@ Within this file, look for the line that says #WaylandEnable=false. You can unco
 WayLandEnable=false
 ```
 
-[CTRL]+[O] to save
-[CTRL]+[X] to exit
+To Save : [Ctrl]+[o]  
+To Exit : [Ctrl]+[w]
 
 After you have made the desired changes, save this file and exit it. You will need to restart GDM3 or reboot your Ubuntu 22.04 desktop for the changes to take effect.
 
@@ -272,8 +272,8 @@ StartupNotify=true
 GenericName[da_DK]=CAD-program
 ```
 
-To Save : [Ctrl]+o  
-To Exit : [Ctrl]+w
+To Save : [Ctrl]+[o]  
+To Exit : [Ctrl]+[w]
 
 ### Ultimaker-Cura-5.1.1-linux-modern.AppImage
 
@@ -297,8 +297,8 @@ StartupNotify=true
 GenericName[da_DK]=CAD-program
 ```
 
-To Save : [Ctrl]+o  
-To Exit : [Ctrl]+w
+To Save : [Ctrl]+[o]  
+To Exit : [Ctrl]+[w]
 
 ### audacity-linux-3.1.3-x86_64.AppImage
 
@@ -321,8 +321,8 @@ Name[da_DK]=audacity-linux-3.1.3-x86_64
 StartupNotify=true
 ```
 
-To Save : [Ctrl]+o  
-To Exit : [Ctrl]+w
+To Save : [Ctrl]+[o]  
+To Exit : [Ctrl]+[w]
 
 ### BalenaEtcher-1.7.9-x64.AppImage
 
@@ -346,8 +346,8 @@ StartupNotify=true
 GenericName[da_DK]=balenaEtcher
 ```
 
-To Save : [Ctrl]+o  
-To Exit : [Ctrl]+w
+To Save : [Ctrl]+[o]  
+To Exit : [Ctrl]+[w]
 
 ### ESPHome-Flasher-1.4.0-Ubuntu-x64.exec
 
@@ -374,8 +374,8 @@ Name[da_DK]=ESPHome-Flasher-1.4.0-Ubuntu-x64
 StartupNotify=true
 ```
 
-To Save : [Ctrl]+o  
-To Exit : [Ctrl]+w
+To Save : [Ctrl]+[o]  
+To Exit : [Ctrl]+[w]
 
 ### [How to run an AppImage](https://discourse.appimage.org/t/how-to-run-an-appimage/80)
 
