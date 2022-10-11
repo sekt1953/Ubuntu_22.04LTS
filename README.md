@@ -275,10 +275,10 @@ GenericName[da_DK]=CAD-program
 To Save : [Ctrl]+o  
 To Exit : [Ctrl]+w
 
-### Ultimaker-Cura-5.0.0-linux.AppImage
+### Ultimaker-Cura-5.1.1-linux.AppImage
 
 ```code
-nano ~/.local/share/applications/Cura-5.0.0.desktop
+nano ~/.local/share/applications/Cura-5.1.1.desktop
 ```
 
 Content of file:
@@ -286,13 +286,13 @@ Content of file:
 ```text
 [Desktop Entry]
 Type=Application
-Name=Ultimaker-Cura-5.0.0-linux
-Comment=Ultimaker-Cura-5.0.0-linux
+Name=Ultimaker-Cura-5.1.1-linux
+Comment=Ultimaker-Cura-5.1.1-linux
 Icon=Cura.png
-Exec=env LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 Ultimaker-Cura-5.0.0-linux.AppImage
+Exec=env Ultimaker-Cura-5.1.1-linux-modern.AppImage
 Categories=Categories=Graphics;2DGraphics;3DGraphics;RasterGraphics;GTK;
 Terminal=false
-Name[da_DK]=Ultimaker-Cura-5.0.0-linux
+Name[da_DK]=Ultimaker-Cura-5.1.1-linux
 StartupNotify=true
 GenericName[da_DK]=CAD-program
 ```
@@ -502,3 +502,29 @@ killall firefox
 
 in the future to see if that'll close all instances of Firefox to stop it from complaining.
 ```
+
+### Gammel Version Ultimaker-Cura-5.0.0-linux.AppImage
+
+```code
+nano ~/.local/share/applications/Cura-5.0.0.desktop
+```
+
+Content of file:
+
+```text
+[Desktop Entry]
+Type=Application
+Name=Ultimaker-Cura-5.0.0-linux
+Comment=Ultimaker-Cura-5.0.0-linux
+Icon=Cura.png
+Exec=env LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6 Ultimaker-Cura-5.0.0-linux.AppImage
+Categories=Categories=Graphics;2DGraphics;3DGraphics;RasterGraphics;GTK;
+Terminal=false
+Name[da_DK]=Ultimaker-Cura-5.0.0-linux
+StartupNotify=true
+GenericName[da_DK]=CAD-program
+```
+
+To Save : [Ctrl]+o  
+To Exit : [Ctrl]+w
+
