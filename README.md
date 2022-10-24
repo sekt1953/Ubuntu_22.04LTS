@@ -302,6 +302,18 @@ To Exit : [Ctrl]+[w]
 
 ### BalenaEtcher-1.7.9-x64.AppImage
 
+Se disse fejl medelse:
+* [Etcher does not work on Ubuntu 22.04 and Linux Mint 21](https://forums.balena.io/t/known-issue-etcher-does-not-work-on-ubuntu-22-04-and-linux-mint-21/360557/3)  
+* [GPU process isn't usable. Goodbye. #3639](https://github.com/balena-io/etcher/issues/3639#issuecomment-1153285345)
+
+Denne linie virker for mig:
+
+```code
+Exec=balenaEtcher-1.7.9-x64.AppImage --disable-gpu-sandbox
+```
+
+Opret desktop fil:
+
 ```code
 nano ~/.local/share/applications/balenaEtcher-1.7.9-x64.desktop
 ```
@@ -315,7 +327,7 @@ Name=balenaEtcher-1.7.9-x64.App
 Comment=balenaEtcher-1.7.9-x64
 Categories=Graphics;Science;Engineering;
 Icon=Etcher-icon.png
-Exec=balenaEtcher-1.7.9-x64.AppImage
+Exec=balenaEtcher-1.7.9-x64.AppImage --disable-gpu-sandbox
 Terminal=false
 Name[da_DK]=balenaEtcher-1.7.9-x64
 StartupNotify=true
