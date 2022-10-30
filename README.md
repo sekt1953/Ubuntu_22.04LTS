@@ -150,6 +150,12 @@ sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1~Ubuntu~jammy_amd64.deb
 
 Start virtualBox and the start VirtualBox Extension Pack it will then start installation in VirtualBox.
 
+### TeamViewer
+
+Jeg bruger TeamViewer til fjern sopport, programmet kan hentest her: [teamviewer.com](https://www.teamviewer.com/en/)  
+Klik [download for free] og Ubuntu, Debian - x86_64bit  
+når programmet er hentet så installer det med Ubuntu's Software installer.
+
 # AppImage  
 
 Kilde:
