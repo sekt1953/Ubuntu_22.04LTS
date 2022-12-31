@@ -28,6 +28,9 @@ reboot
 
 ## Some Basic Programs
 
+**Git** er et vigtigt program du altid bør installerer !  
+se denne video: [Git Tutorial For Dummies](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
+
 ```code
 sudo apt install -y git geany pinta gimp vlc  
 ```
