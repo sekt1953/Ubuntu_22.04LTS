@@ -35,6 +35,23 @@ se denne video: [Git Tutorial For Dummies](https://www.youtube.com/watch?v=mJ-qv
 sudo apt install -y git geany pinta gimp vlc  
 ```
 
+### Git
+
+I place my GitHub Repo in ~/GitHub, for easy upload to Github I need to [configure my login](https://www.jcchouinard.com/install-git-in-vscode)
+
+```code
+cd ~/GitHub/
+git init
+git config --global user.name "yourusername"
+git config --global user.email "email@youremail.com"
+```
+
+I also create ssh login for Github See this link [Connecting to GitHub with SSH](Connecting to GitHub with SSH)
+
+```code
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
 ## Some Extra Programs
 
 ```code
@@ -95,6 +112,19 @@ NB!!! Check you download version number and replace x.y-z in the command.
 sudo dpkg -i ~/Hentet/code_1.xx.y-zzzzzzzzzz_amd64.deb
 ```
 
+### Extexsions
+
+* C/C++ from Microsoft
+* markdownlint from David Anson
+* Markdown PDF from  ysane
+* PlatformIO TDE from PlatformIO
+  * [Platform IO needs some update to python3](https://github.com/platformio/platformio-core-installer/issues/85)
+
+```code
+sudo apt-get install python3-venv
+```
+
+
 ## OBS-Studio
 
 Kilde:
@@ -142,6 +172,10 @@ sudo apt install -y libqt5opengl5
 
 ```code
 sudo dpkg -i ~/Hentet/virtualbox-6.1_6.1.34-150636.1~Ubuntu~jammy_amd64.deb
+```
+
+```code
+sudo usermod -a -G vboxusers $USER
 ```
 
 ### VirtualBox Extension Pack  
