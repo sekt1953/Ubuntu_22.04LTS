@@ -46,7 +46,7 @@ git config --global user.name "yourusername"
 git config --global user.email "email@youremail.com"
 ```
 
-I also create ssh login for Github See this link [Connecting to GitHub with SSH](Connecting to GitHub with SSH)
+I also create ssh login for Github See this link [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
 ```code
 ssh-keygen -t ed25519 -C "your_email@example.com"
