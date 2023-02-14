@@ -124,8 +124,9 @@ sudo dpkg -i ~/Hentet/code_1.xx.y-zzzzzzzzzz_amd64.deb
 sudo apt-get install python3-venv
 ```
 
-
 ## OBS-Studio
+
+### Open Broadcaster Software
 
 Kilde:
 
@@ -254,6 +255,7 @@ reboot
 * Download Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
 * Download and unzip balenaEtcher: [balenaEtcher](https://www.balena.io/etcher/)
 * Download Shutcut here: [Shotcut Video Editor](https://shotcut.org/download/)
+  * [Recording and editing videos in OBS Studio and Shotcut](https://www.youtube.com/watch?v=4lKSCRq_s4s)
 
 Move files to ~/.local/bin:
 
