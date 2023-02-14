@@ -253,6 +253,7 @@ reboot
 * Download Ultimaker-Cura-5.1.1-linux-modern here: [Cura](https://ultimaker.com/software/ultimaker-cura)
 * Download Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
 * Download and unzip balenaEtcher: [balenaEtcher](https://www.balena.io/etcher/)
+* Download Shutcut here: [Shotcut Video Editor](https://shotcut.org/download/)
 
 Move files to ~/.local/bin:
 
