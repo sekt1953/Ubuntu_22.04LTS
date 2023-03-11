@@ -463,7 +463,7 @@ After you have made the desired changes, save this file and exit it. You will ne
 sudo systemctl restart gdm3
 ```
 
-## USB -> Serial CH3240-Problem
+## USB -> Serial CH340-Problem
 
 * CH340 SE HER !!!
   * [Unable to use USB dongle based on USB-serial converter chip](https://unix.stackexchange.com/questions/670636/unable-to-use-usb-dongle-based-on-usb-serial-converter-chip)
