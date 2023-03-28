@@ -30,7 +30,7 @@ reboot
 ## Some Basic Programs
 
 ```code
-sudo apt install -y git geany pinta gimp vlc  
+sudo apt install -y geany pinta gimp vlc  
 ```
 
 ## Git & GitHub
@@ -43,6 +43,7 @@ se denne video: [Git Tutorial For Dummies](https://www.youtube.com/watch?v=mJ-qv
 I place my GitHub Repo in ~/GitHub, for easy upload to Github I need to [configure my login](https://www.jcchouinard.com/install-git-in-vscode)
 
 ```code
+sudo apt install -y git
 cd ~/GitHub/
 git init
 git config --global user.name "yourusername"
