@@ -50,6 +50,8 @@ git config --global user.name "yourusername"
 git config --global user.email "email@youremail.com"
 ```
 
+### GitHub
+
 I also create ssh login for Github See this link [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
 * Change 
@@ -60,8 +62,6 @@ I also create ssh login for Github See this link [Connecting to GitHub with SSH]
 cd ~/.ssh/
 ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/"myfilename"
 ```
-
-### GitHub
 
 Now follow GitHub's instructions for installing your ssh key
 
