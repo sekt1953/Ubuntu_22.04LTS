@@ -13,7 +13,8 @@ sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 ### some snap firefox problem
 
 ```code
-sudo killall firefox && sudo snap refresh firefox
+sudo killall firefox
+sudo snap refresh firefox
 ```
 
 ## Enable Access to serial/usb port
