@@ -29,14 +29,16 @@ reboot
 
 ## Some Basic Programs
 
-**Git** er et vigtigt program du altid bør installerer !  
-se denne video: [Git Tutorial For Dummies](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
-
 ```code
 sudo apt install -y git geany pinta gimp vlc  
 ```
 
+## Git & GitHub
+
 ### Git
+
+**Git** er et vigtigt program du altid bør installerer !  
+se denne video: [Git Tutorial For Dummies](https://www.youtube.com/watch?v=mJ-qvsxPHpY)
 
 I place my GitHub Repo in ~/GitHub, for easy upload to Github I need to [configure my login](https://www.jcchouinard.com/install-git-in-vscode)
 
