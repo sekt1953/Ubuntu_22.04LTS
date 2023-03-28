@@ -58,6 +58,12 @@ cd ~/.ssh/
 ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/"myfilename"
 ```
 
+### GitHub
+
+Følg nu GitHub's vejledning til installation af din ssh-key
+
+* [Adding a new SSH key to your account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
+
 ## Some Extra Programs
 
 ```code
