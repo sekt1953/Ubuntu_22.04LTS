@@ -105,6 +105,24 @@ After you have made the desired changes, save this file and exit it. You will ne
 sudo systemctl restart gdm3
 ```
 
+## How to install Inkscape 1.2.2 on Ubuntu
+
+[See more here](https://ubunlog.com/en/inkscape-1-2-2-gets-to-fix-the-problem-with-the-appimage-and-more/)
+
+### Add the application repository:
+
+```code
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt-get update
+```
+
+### Install inkscape
+
+```code
+sudo apt-get install inkscape
+```
+
+
 # 3. Party Programs  
 
 ## dpkg
@@ -269,6 +287,7 @@ reboot
 * Download Ultimaker-Cura-5.1.1-linux-modern here: [Cura](https://ultimaker.com/software/ultimaker-cura)
 * Download Audacity here: [Audacity](https://www.audacityteam.org/download/linux/)
 * Download and unzip balenaEtcher: [balenaEtcher](https://www.balena.io/etcher/)
+* Download Inkscape here: [Inkscape](https://inkscape.org/gallery/item/37359/Inkscape-b0a8486-x86_64.AppImage)
 * Download Shutcut here: [Shotcut Video Editor](https://shotcut.org/download/)
   * [Recording and editing videos in OBS Studio and Shotcut](https://www.youtube.com/watch?v=4lKSCRq_s4s)
 
