@@ -123,7 +123,19 @@ sudo apt-get install inkscape
 ```
 
 
-# 3. Party Programs  
+# 3. Party Programs
+
+
+## [duolingo-desktop](https://snapcraft.io/install/duolingo-desktop/ubuntu)
+
+```code
+sudo apt update
+sudo apt install snapd
+```
+
+```code
+sudo snap install duolingo-desktop
+```
 
 ## dpkg
 
