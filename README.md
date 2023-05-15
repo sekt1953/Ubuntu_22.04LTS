@@ -125,6 +125,9 @@ sudo apt-get install inkscape
 
 # 3. Party Programs
 
+## Samba Share
+
+Se denne video og følg den [How to Install and Configure Samba File Sharing on Ubuntu 22.04 LTS](https://youtu.be/Df1MwI9jaPc)
 
 ## [duolingo-desktop](https://snapcraft.io/install/duolingo-desktop/ubuntu)
 
