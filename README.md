@@ -122,8 +122,12 @@ sudo apt-get update
 sudo apt-get install inkscape
 ```
 
-
 # 3. Party Programs
+
+## How to Install VirtualBox 7 on Ubuntu 22.04 LTS
+
+* [How to Install VirtualBox 7 on Ubuntu 22.04 LTS](https://linuxhint.com/install-virtualbox-7-ubuntu-22-04-lts/)
+  * [How to Install VirtualBox Extension Pack on VirtualBox 7](https://linuxhint.com/install-virtualbox-extension-pack-virtualbox-7/)
 
 ## Samba Share
 
