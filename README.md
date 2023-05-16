@@ -129,7 +129,68 @@ sudo apt-get install inkscape
 
 Se denne video og følg den [How to Install and Configure Samba File Sharing on Ubuntu 22.04 LTS](https://youtu.be/Df1MwI9jaPc)
 
-## [duolingo-desktop](https://snapcraft.io/install/duolingo-desktop/ubuntu)
+```code
+sudo apt update
+sudo apt install samba
+```
+
+Check instalation
+
+```code
+whereis samba
+```
+
+Create a directory for samba share
+
+```code
+mkdir ~/sambashare/
+```
+
+Edit Sanba config fifle
+
+```code
+sudo nano /etc/samba/smb.conf
+```
+
+A this to the end of smb.conf
+
+```code
+[sambashare]
+   comment =
+   path = /home/username/sambashare
+   read only = no
+   browsable = yes
+```
+
+Restart Samba
+
+```code
+sudo service smbd restart
+```
+
+Create firewall rules to allow Samba traffic
+
+```code
+sudo ufw allow samba
+```
+
+Set up a Samba password for user account
+
+```code
+sudo smbpasswd -a username
+```
+
+## [Set short password Ubuntu 22.04](https://askubuntu.com/questions/1414651/set-short-password-ubuntu-22-04)
+
+Run 
+
+```code
+sudo passwd <your-username>
+```
+
+ from the terminal. When run by root (sudo), passwd program should ignore all password policies set in PAM configuration. It will complain that the password does not meet the requirements, but will set it anyway.
+
+## [Duolingo-desktop](https://snapcraft.io/install/duolingo-desktop/ubuntu)
 
 ```code
 sudo apt update
