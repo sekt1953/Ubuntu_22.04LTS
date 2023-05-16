@@ -156,7 +156,7 @@ A this to the end of smb.conf
 
 ```code
 [sambashare]
-   comment =
+   comment = A Samba share on Ubuntu 22.04LTS
    path = /home/username/sambashare
    read only = no
    browsable = yes
