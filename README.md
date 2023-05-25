@@ -307,6 +307,19 @@ Jeg bruger TeamViewer til fjern sopport, programmet kan hentest her: [teamviewer
 Klik [download for free] og Ubuntu, Debian - x86_64bit  
 når programmet er hentet så installer det med Ubuntu's Software installer.
 
+## Modedltog DCC-EX
+
+### [EX-CommandStation](https://dcc-ex.com/ex-commandstation/get-started/purchasing.html)
+
+* [Software load error](https://dcc-ex.com/ex-commandstation/get-started/purchasing.html#software)
+  * [no usable version of libssl was found afbrudt (sigabrt) (smed kerne)](https://dev.to/n3wt0n/no-usable-version-of-the-libssl-was-found-solved-2ffa)
+    * [Video](https://www.youtube.com/watch?v=g8tdrB3kbDU)
+
+```code
+sudo apt install libssl-dev
+```
+
+
 # AppImage  
 
 Kilde:
