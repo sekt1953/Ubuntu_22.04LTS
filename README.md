@@ -14,6 +14,9 @@ sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y
 
 ```code
 sudo killall firefox
+```
+
+```code
 sudo snap refresh firefox
 ```
 
@@ -44,9 +47,21 @@ I place my GitHub Repo in ~/GitHub, for easy upload to Github I need to [configu
 
 ```code
 sudo apt install -y git
+```
+
+```code
 cd ~/GitHub/
+```
+
+```code
 git init
+```
+
+```code
 git config --global user.name "yourusername"
+```
+
+```code
 git config --global user.email "email@youremail.com"
 ```
 
@@ -60,6 +75,9 @@ I also create ssh login for Github See this link [Connecting to GitHub with SSH]
 
 ```code
 cd ~/.ssh/
+```
+
+```code
 ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/"myfilename"
 ```
 
@@ -113,6 +131,9 @@ sudo systemctl restart gdm3
 
 ```code
 sudo add-apt-repository ppa:inkscape.dev/stable
+```
+
+```code
 sudo apt-get update
 ```
 
@@ -134,8 +155,7 @@ sudo apt-get install inkscape
 Se denne video og følg den [How to Install and Configure Samba File Sharing on Ubuntu 22.04 LTS](https://youtu.be/Df1MwI9jaPc)
 
 ```code
-sudo apt update
-sudo apt install samba
+sudo apt update && sudo apt install samba
 ```
 
 Check instalation
@@ -197,8 +217,7 @@ sudo passwd <your-username>
 ## [Duolingo-desktop](https://snapcraft.io/install/duolingo-desktop/ubuntu)
 
 ```code
-sudo apt update
-sudo apt install snapd
+sudo apt update && sudo apt install snapd
 ```
 
 ```code
