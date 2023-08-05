@@ -73,7 +73,7 @@ git config --global user.email "email@youremail.com"
 
 I also create ssh login for Github See this link [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-* Change 
+* Change
   * **"your_email@example.com"** to your E-mail
   * **"myfilename"** to the filename you whant
 
