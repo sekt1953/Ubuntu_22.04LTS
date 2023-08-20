@@ -147,6 +147,13 @@ sudo apt-get update
 sudo apt-get install inkscape
 ```
 
+# Ubuntu-restricted-extras
+
+## Video
+
+* [Fix Ubuntu Can't Play Video (MP4, MKV, Etc) Files | Install Multimedia Codecs on Ubuntu Linux](https://youtu.be/LW8F97qQzVE "
+Tiwo Satriatama")
+
 # 3. Party Programs
 
 ## How to Install VirtualBox 7 on Ubuntu 22.04 LTS
@@ -268,6 +275,7 @@ Kilde:
 
 * [OBS Studio](https://obsproject.com/download#linux)
   * Gratis, Open Source-software til videooptagelse og live streaming.  
+  * [OBS Studio Settings](https://youtu.be/zv6eECqNA3o)
 * YouTube Videos:
   * [Optag din Computerskærm med OBS Studio | Gratis](https://www.youtube.com/watch?v=bDcAStFrfCk)  
   * [Use Obs To Record YouTube Videos](https://www.youtube.com/watch?v=F1cCSLrOjog)
