@@ -28,6 +28,10 @@ sudo snap refresh firefox
 sudo usermod -a -G dialout $USER  
 ```
 
+```code
+reboot
+```
+
 ### USB -> Serial CH340-Problem
 
 * CH340 SE HER !!!
@@ -53,11 +57,6 @@ Created symlink /etc/systemd/system/brltty.path → /dev/null.
 ```
 
 Reconect usb-device (ESP32) derefter.
-
-
-```code
-reboot
-```
 
 ## Some Basic Programs
 
