@@ -45,6 +45,9 @@ BRLTTY uses udev rules to get permissions to mess with the TTYs without being ro
 for f in /usr/lib/udev/rules.d/*brltty*.rules; do
     sudo ln -s /dev/null "/etc/udev/rules.d/$(basename "$f")"
 done
+```
+
+```code
 sudo udevadm control --reload-rules    
 ```
 
@@ -53,6 +56,9 @@ The BRLTTY service is launched by the brltty.path service. This service can be c
 
 ```code
 sudo systemctl mask brltty.path
+```
+
+```code
 Created symlink /etc/systemd/system/brltty.path → /dev/null.
 ```
 
