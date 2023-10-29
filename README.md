@@ -104,6 +104,33 @@ git config --global user.name "yourusername"
 git config --global user.email "email@youremail.com"
 ```
 
+### [How to solve "sign_and_send_pubkey: signing failed: agent refused operation"?](https://stackoverflow.com/questions/44250002/how-to-solve-sign-and-send-pubkey-signing-failed-agent-refused-operation)
+
+ISSUE:
+
+antop@localmachine  ~  ssh root@ocp1.example.com  
+sign_and_send_pubkey: signing failed: agent refused operation  
+root@ocp1.example.com's password:
+
+1. Add my ssh key for github
+
+```code
+ssh-add ~/.ssh/github_ed25519
+```
+
+2. Check to see if it was added
+
+```code
+ssh-add ~/.ssh/github_ed25519
+```
+
+3. Change permission on .ssh
+
+```code
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/*
+```
+
 ### GitHub
 
 I also create ssh login for Github See this link [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
