@@ -489,6 +489,10 @@ Icons for this program you can get from my Github page [My Icons](https://github
 
 Save the png files in the folder ***~/.local/share/icons***
 
+```code
+mv ~/Hentet/*.png ~/.local/share/icons
+```
+
 ## AppImages Desktop Files
 
 ### FreeCad_0.20.1.AppImage
