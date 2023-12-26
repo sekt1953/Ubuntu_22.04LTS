@@ -59,8 +59,10 @@ The BRLTTY service is launched by the brltty.path service. This service can be c
 sudo systemctl mask brltty.path
 ```
 
+Created symlink:
+
 ```code
-Created symlink /etc/systemd/system/brltty.path → /dev/null.
+sudo ln -s /etc/systemd/system/brltty.path /dev/null
 ```
 
 Reconect usb-device (ESP32) derefter.
