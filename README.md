@@ -1,6 +1,10 @@
 # Ubuntu_22.04LTS
 
-## Se denne Video: [Windows 11 Must Be Stopped - A Veteran PC Repair Shop Owner's Dire Warning - Jody Bruchon](https://www.youtube.com/watch?v=LcafzHL8iBQ)  aa
+## Is Ubuntu affected by the xz backdoor compromise?
+
+### See Here [Is Ubuntu affected by the xz backdoor compromise?](https://askubuntu.com/questions/1509015/is-ubuntu-affected-by-the-xz-backdoor-compromise)
+
+## Se denne Video: [Windows 11 Must Be Stopped - A Veteran PC Repair Shop Owner's Dire Warning - Jody Bruchon](https://www.youtube.com/watch?v=LcafzHL8iBQ)
 
 # What to do when after installing Ubuntu 22.04LTS
 
