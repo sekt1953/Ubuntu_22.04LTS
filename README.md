@@ -24,7 +24,6 @@ sudo killall firefox
 sudo snap refresh firefox
 ```
 
-
 ## ESPHome
 
 ### Enable Access to serial/usb port
